@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+/* main css */
+.main {
+  padding: 5rem 16px;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 5rem;
+  line-height: 1;
+  font-size: 4rem;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.input p {
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #444;
+  font-size: 16px;
+}
+
+.input input,
+.input textarea {
+  text-align: left;
+  color: #222;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  transition: border-color 0.15s ease;
+  width: 100%;
+  padding: 0 14px;
+  line-height: 44px;
+}
+
+.input input.error,
+.input textarea.error {
+  border-color: red;
+}
+
+.input input:hover,
+.input input:focus,
+.input input:active,
+.input textarea:hover,
+.input textarea:focus,
+.input textarea:active {
+  border-color: #0070f3;
+}
+
+.input button {
+  width: 104px;
+  line-height: 34px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #e2136e;
+  border-radius: 4px;
+}
